@@ -1,6 +1,4 @@
-  const N = 5
-  const A = [3,4,4, 7]
- 
+
  solution = (N, A) =>  {
     let output = [];
     for( let i = 0 ; i<N ; i ++) {
@@ -22,5 +20,6 @@
     }
   return output
  }
-
+const N = 5
+const A = [3,4,4, 7]
  console.log('resultat ' , solution(N , A) )
