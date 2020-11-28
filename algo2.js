@@ -1,5 +1,3 @@
-const A = [6,6,6,4,4,3]
-const B = [3,3,3,3,3]
  solution = (A, B) => {
     if(Math.max(...A) > A.length |Math.min(...A) < 1 | Math.max(...B) >30 | Math.min(...A) < 1 ) {
         return "invalid input "
@@ -27,5 +25,8 @@ console.log(tab)
 
     return output;
 }
+ 
+const A = [6,6,6,4,4,3]
+const B = [3,3,3,3,3]
 result = solution(A, B)
 console.log(result)
