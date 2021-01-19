@@ -3,6 +3,7 @@
     let output = [];
     for( let i = 0 ; i<N ; i ++) {
            output.push(0)
+     //hhhhh
     }
     for (let i =0 ; i < A.length ; i++)
     {
